@@ -27,7 +27,7 @@ module.exports = {
     }),
     new CleanWebpackPlugin(["dist"])
   ],
-  devtool: "inline-source-map",
+  devtool: "cheap-module-source-map",//cheap-module-source-map cheap-module-eval-source-map
   devServer: {
     contentBase: "./dist"
   }

@@ -1,7 +1,8 @@
 .hello {
-    color: red;
-
-    }
+    color: red;    }
 body{
+    background: #12aeef;
+}
+.importinindex {
     background: #12aeef;
 }
